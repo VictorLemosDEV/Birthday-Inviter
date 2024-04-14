@@ -16,7 +16,7 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background: url("https://cdn.discordapp.com/attachments/979336205063827476/1229203930760609812/6795cdc1-c10d-4e5e-99b9-281611d626de.jpeg?ex=662ed45e&is=661c5f5e&hm=fd42e9e212e582855b0fc8a7872ad656901860b435b2975d9db9141c9ec3293c&") no-repeat center center;
+    background: url("/images/glitter-background.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
