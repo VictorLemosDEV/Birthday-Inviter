@@ -188,7 +188,7 @@ div.selection .selection-button:hover {
     }
     
     div.selection .selection-button {
-       color: red;
+      /* color: red; */
        height: 7vh;
        width: 35vw;
        font-size: 3vh;

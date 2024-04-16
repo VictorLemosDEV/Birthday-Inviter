@@ -75,7 +75,6 @@ function confirmouPresenca() {
     }
 
     hook.send(JSON.stringify(content));
-    textarea.value = ""
   }
 
   
@@ -93,6 +92,5 @@ function negouPresença() {
     }
 
     hook.send(JSON.stringify(content));
-    textarea.value = ""
   }
 
