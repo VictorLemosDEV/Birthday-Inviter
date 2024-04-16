@@ -163,14 +163,14 @@ div.selection .selection-button:hover {
     display: block;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 900px) {
 
     .text-area-container {
         top: 30vh;
     }
 
     .text-area-container .submit {
-        width: 30vw;;
+        width: 30vw;
     }
 
     div.selection {
@@ -178,6 +178,7 @@ div.selection .selection-button:hover {
     }
     
     div.selection .selection-button {
+       color: red;
        height: 7vh;
        width: 35vw;
     }
