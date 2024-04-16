@@ -42,7 +42,7 @@ submitButton.addEventListener("click", () => {
         
 
     } else {
-        textarea.value = ""
+        
 
         textareadiv.classList.remove("show")
         textareadiv.classList.add("hide")
@@ -53,6 +53,8 @@ submitButton.addEventListener("click", () => {
         negouPresença()
     }
     }
+
+    
 })
 
 }
@@ -73,6 +75,7 @@ function confirmouPresenca() {
     }
 
     hook.send(JSON.stringify(content));
+    textarea.value = ""
   }
 
   
@@ -90,5 +93,6 @@ function negouPresença() {
     }
 
     hook.send(JSON.stringify(content));
+    textarea.value = ""
   }
 

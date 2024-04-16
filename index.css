@@ -16,7 +16,7 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background: url("/images/glitter-background.jpeg") no-repeat center center;
+    background: url("./images/glitter-background.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -191,6 +191,7 @@ div.selection .selection-button:hover {
        color: red;
        height: 7vh;
        width: 35vw;
+       font-size: 3vh;
     }
 
 }
