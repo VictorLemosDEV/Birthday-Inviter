@@ -180,7 +180,7 @@ div.selection .selection-button:hover {
     }
 
     .text-area-container .submit {
-        width: 30vw;
+        width: 30vw;;
     }
 
     div.selection {
@@ -188,7 +188,6 @@ div.selection .selection-button:hover {
     }
     
     div.selection .selection-button {
-      /* color: red; */
        height: 7vh;
        width: 35vw;
        font-size: 3vh;
