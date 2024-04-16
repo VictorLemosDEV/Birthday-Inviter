@@ -162,3 +162,24 @@ div.selection .selection-button:hover {
 .show {
     display: block;
 }
+
+@media(max-width: 450px) {
+
+    .text-area-container {
+        top: 30vh;
+    }
+
+    .text-area-container .submit {
+        width: 30vw;;
+    }
+
+    div.selection {
+        margin-top: 15vh;
+    }
+    
+    div.selection .selection-button {
+       height: 7vh;
+       width: 35vw;
+    }
+
+}

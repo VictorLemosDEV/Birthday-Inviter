@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded",ConfigureTextArea,false)
 
 let textarea;
@@ -5,6 +7,7 @@ let textarea;
 let optionSelected = -1;
 
 function ConfigureTextArea() {
+
 
     let confirmationButton = document.getElementById("accept")
 
@@ -39,6 +42,8 @@ submitButton.addEventListener("click", () => {
         
 
     } else {
+        textarea.value = ""
+
         textareadiv.classList.remove("show")
         textareadiv.classList.add("hide")
 
