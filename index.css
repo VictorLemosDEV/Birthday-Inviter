@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -163,6 +165,68 @@ div.selection .selection-button:hover {
     display: block;
 }
 
+.pix {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    top: 25vh;
+
+}
+
+.pix img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 43vw;
+
+}
+
+.pix .alternative {
+    position: relative;
+    color: white;
+    top: 50vh;
+    right: 3%;
+    
+}
+
+.pix .chavepix {
+    top: 40vh;
+    right: 41vw;
+    position: relative;
+    color: white;
+}
+
+.montserrat {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 1.5em;
+}
+
+.titulopix {
+    width: 50%;
+    height: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    margin-top: 40vh;
+    text-align: center;
+
+    font-size: 3rem;
+    left: 25%;
+
+    background-color: purple;
+    border-radius: 1rem;
+}
+
 @media(max-width: 1100px) {
 
     .title h1 {
@@ -191,6 +255,44 @@ div.selection .selection-button:hover {
        height: 7vh;
        width: 35vw;
        font-size: 3vh;
+    }
+
+    .titulopix {
+        font-size: 1.5rem;
+        height: 90px;
+    }
+
+    .pix {
+        position: relative;
+        color: white;
+        top: 10vh;
+        left: 18vw;
+    }
+
+
+    .pix img {
+        width: 300px;
+        margin-right: 15vw;
+    }
+
+    .pix .chavepix {
+        top: 40vh;
+        right: 90vw;
+        position: relative;
+        color: white;
+    }
+
+    .pix .alternative {
+        width: 100px;
+
+        inline-size: 300px;
+        overflow-wrap: break-word;
+
+        position: relative;
+        color: white;
+        top: 70vh;
+        right: 40vw;
+        
     }
 
 }
