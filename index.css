@@ -259,7 +259,7 @@ div.selection .selection-button:hover {
 
     .titulopix {
         font-size: 1.5rem;
-        height: 90px;
+        height: fit-content;
     }
 
     .pix {
@@ -272,27 +272,17 @@ div.selection .selection-button:hover {
 
     .pix img {
         width: 300px;
-        margin-right: 15vw;
+        margin-right: 85vw;
     }
 
     .pix .chavepix {
+        height: 20vh;
         top: 40vh;
-        right: 90vw;
+        right: 100vw;
         position: relative;
         color: white;
     }
 
-    .pix .alternative {
-        width: 100px;
-
-        inline-size: 300px;
-        overflow-wrap: break-word;
-
-        position: relative;
-        color: white;
-        top: 70vh;
-        right: 40vw;
-        
-    }
+    
 
 }
